@@ -14,7 +14,7 @@ locals {
 }
 
 resource "cloudflare_teams_rule" "block_ads" {
-  account_id = local.cloudflare_account_id
+  account_id = local.beb7d706c132ed8fed88754847314f3b
 
   name        = "Block Ads"
   description = "Block Ads domains"
@@ -63,7 +63,7 @@ locals {
 
 
 resource "cloudflare_teams_list" "pihole_domain_lists" {
-  account_id = local.cloudflare_account_id
+  account_id = local.beb7d706c132ed8fed88754847314f3b
 
   for_each = {
     for i in range(0, local.pihole_list_count) :
