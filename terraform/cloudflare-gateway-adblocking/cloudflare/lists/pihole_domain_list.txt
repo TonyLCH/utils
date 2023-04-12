@@ -1,9 +1,3 @@
-# AdguardDNS
-#
-# Converted from - https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt
-# Last converted - Mon, 10 Apr 2023 16:25:44 +0100
-#
-
 0.0.0.0 frockritequell.com
 0.0.0.0 sootconform.com
 0.0.0.0 adsbeard.com
